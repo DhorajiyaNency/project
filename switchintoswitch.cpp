@@ -16,8 +16,8 @@ int main()
             case 1:
             cout<<"\n SAVING ACCOUNT"; 
             do{
-                cout<<"\n\n Enter in case1 : ";
-                cin>>s;
+            cout<<"\n\n Enter in case1 : ";
+            cin>>s;
                 switch (s)
                 {
                 case 5:
@@ -45,8 +45,8 @@ int main()
             cout<<"\n CURRENT ACCOUNT"; 
             do
             {
-                cout<<"\n\n Enter in case2 : ";
-                cin>>s;
+            cout<<"\n\n Enter in case2 : ";
+            cin>>s;
                 switch (s)
                 {
                 case 15:
