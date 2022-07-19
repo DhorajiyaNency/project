@@ -12,9 +12,9 @@ int main()
         int s;
         if(n=1)
         {
-                case 1:
-                cout<<"\n SAVING ACCOUNT"; 
-                do{
+            case 1:
+            cout<<"\n SAVING ACCOUNT"; 
+            do{
                 cout<<"\n\n Enter in case1 : ";
                 cin>>s;
                 switch (s)
@@ -35,15 +35,15 @@ int main()
                     cout<<"\n Wrong";
                     break;
                 }
-                }while (s!=10);       
-                break;                
+            }while (s!=10);       
+            break;                
         }
         else if(n=2)
         {
             case 2:
-                cout<<"\n CURRENT ACCOUNT"; 
-                do
-                {
+            cout<<"\n CURRENT ACCOUNT"; 
+            do
+            {
                 cout<<"\n\n Enter in case2 : ";
                 cin>>s;
                 switch (s)
@@ -64,8 +64,8 @@ int main()
                     cout<<"\n Wrong";
                     break;
                 }
-                }while(s!=20);
-                break;
+            }while(s!=20);
+            break;
         }
         case 0:
             cout<<"\n EXIT ALL";
