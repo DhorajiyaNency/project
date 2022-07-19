@@ -1,3 +1,4 @@
+//switch into switch...
 #include<iostream>
 using namespace std;
 int main()
