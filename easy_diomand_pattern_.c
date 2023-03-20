@@ -49,3 +49,49 @@ int main()
 //   * * * 
 //    * * 
 //     * 
+
+
+// With using user input
+// #include<stdio.h>
+// int main(){
+//     int i,j,rows,stars=1;
+//     printf("Enter your number:");
+//     scanf("%d",&rows);
+//     int space=rows;
+    
+//   for(i=1; i<=rows*2; i++)
+//   {
+//       for(j=1; j<=space; j++)
+//       {
+//           printf(" ");
+//       }
+//       for(j=1; j<=stars; j++)
+//       {
+//           printf("* ");
+//       }
+//       printf("\n");
+//       if(i<rows){
+       
+//         space--;
+//         stars++;
+//       }
+//       else{
+//         space++;
+//         stars--;
+//       }
+//   }
+//   return 0;
+// }
+
+
+// Enter your number:5
+//      * 
+//     * * 
+//    * * * 
+//   * * * * 
+//  * * * * * 
+//   * * * * 
+//    * * * 
+//     * * 
+//      * 
+      
