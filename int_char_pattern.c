@@ -85,3 +85,44 @@ int main()
 // E F G H
 // 3 4 5 6 7
 // I J K L M N
+
+
+//  Using User Input
+// #include<stdio.h>
+// void main(){
+//     int rows, num=1;
+//     char ch='A';
+//     printf("Enter your number of Row:");
+//     scanf("%d",&rows);
+    
+//     for(int i=1; i<=rows; i++)
+//     {
+//         for(int j=1; j<=i; j++)
+//         {
+//             if(i%2==0){
+//                 // printf("%d",num);
+//                 // num++;
+//                  printf("%c",ch);
+//                 ch++;
+//             }
+//             else{
+//                 // printf("%c",ch);
+//                 // ch++;
+//                 printf("%d",num);
+//                 num++;
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+//
+
+
+// Enter your number of Row:5
+// 1
+// AB
+// 234
+// CDEF
+// 56789
+
+
