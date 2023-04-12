@@ -63,3 +63,39 @@ void main(){
 // ---**
 // ----*
 // -----
+
+
+
+// method: 3
+
+#include<stdio.h>
+void main()
+{
+    int n;
+    
+    printf("Enter your number of row:");
+    scanf("%d",&n);
+    
+    for(int i=1; i<=n; i++)
+    {
+     for(int k=n; k>=1; k--)
+     {
+        if(k>i)
+        {
+            printf("-");   
+        }
+        else
+        {
+            printf("*");
+        }
+     }     
+     printf("\n");
+    }
+}
+
+// Enter your number of row:5
+// ----*
+// ---**
+// --***
+// -****
+// *****
