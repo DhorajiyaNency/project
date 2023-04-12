@@ -95,3 +95,55 @@ int main()
 //     * * 
 //      * 
       
+
+
+
+#include<stdio.h>
+void main()
+{
+    int n;
+    
+    printf("Enter your number of row:");
+    scanf("%d",&n);
+    
+    int space=n-1;
+    int stars=1;
+    
+    for(int i=1; i<=n*2-1; i++)
+    {
+     for(int k=1; k<=space; k++)
+     {
+        printf("*");
+     }
+    for(int j=1; j<=stars; j++)
+     {
+        printf("  ");
+     }
+     
+     printf("\n");
+     if(i<n)
+     {
+        space--;
+        stars++;
+     }
+     else{
+         space++;
+         stars--;
+     }
+     
+    
+    }
+}
+
+// Enter your number of row:6
+// *****  
+// ****    
+// ***      
+// **        
+// *          
+//       
+// *          
+// **        
+// ***      
+// ****    
+// *****  
