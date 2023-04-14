@@ -25,8 +25,9 @@ int main() {
     }
     return 0;
 }
-// Enter the number of rows: 5
 
+
+// Enter the number of rows: 5
 // ****-
 // ***--
 // **---
@@ -99,3 +100,137 @@ void main()
 // --***
 // -****
 // *****
+
+
+
+
+////______________________________________________________________________________________________________
+
+#include <stdio.h>
+
+int main()
+{
+    int i=1,j,k,rows=5;
+    int space=rows;
+    
+    for(i=1; i<=rows; i++)
+    {
+        for(j=1; j<=space; j++)
+        {
+            printf("-");
+        }
+        for(k=1; k<=i; k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+        space--;
+    }
+
+    return 0;
+}
+
+
+// -----*
+// ----**
+// ---***
+// --****
+// -*****
+
+
+#include <stdio.h>
+
+int main()
+{
+    int i=1,j,k,rows=5;
+
+    for(i=1; i<=rows; i++)
+    {
+        for(j=1; j<=rows; j++)
+        {
+            if(j<i)
+            {
+                printf("-");
+            }
+            else
+            {
+                printf(" *");
+            }
+        }
+        printf("\n");
+       
+    }
+
+    return 0;
+}
+
+ * * * * *
+- * * * *
+-- * * *
+--- * *
+---- *
+
+
+#include <stdio.h>
+
+int main()
+{
+    int i=1,j,k,rows=5;
+
+    for(i=1; i<=rows; i++)
+    {
+        for(j=1; j<=rows; j++)
+        {
+            if(j>i)
+            {
+                printf(" *");
+            }
+            else
+            {
+                printf("-");
+            }
+        }
+        printf("\n");
+       
+    }
+
+    return 0;
+}
+
+// - * * * *
+// -- * * *
+// --- * *
+// ---- *
+// -----
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int i=1,j,k,rows=5;
+
+    for(i=1; i<=rows; i++)
+    {
+        for(j=rows; j>=1; j--)
+        {
+            if(j>i)
+            {
+                printf("-");
+            }
+            else
+            {
+                printf(" *");
+            }
+        }
+        printf("\n");
+       
+    }
+}
+
+// ---- *
+// --- * *
+// -- * * *
+// - * * * *
+//  * * * * *
